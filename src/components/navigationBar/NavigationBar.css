@@ -5,17 +5,18 @@
     flex-direction:row;
 }
 
-@font-face {
-    font-family: TransRobotics;
-    src: url(SFTransRobotics.ttf);
-}
+@font-face { font-family: TransRobotics;
+    src: url('SFTransRobotics.ttf'); }
 
 .TeamName {
-    font-family: TransRobotics sans-serif;
+    width: 26vw;
+    margin: 2vh 2vw ;
+    font-weight:normal;
+    font-family: 'TransRobotics', sans-serif;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid orange; /* The typewriter cursor */
+    border-right: .15em solid #5B9E44; /* The typewriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    //margin: 0 auto; /* Gives that scrolling effect as the typing happens */
     letter-spacing: .15em; /* Adjust as needed */
     animation:
             typing 3.5s steps(40, end),
@@ -25,11 +26,15 @@
 /* The typing effect */
 @keyframes typing {
     from { width: 0 }
-    to { width: 100% }
+    to { width: 26vw }
 }
 
 /* The typewriter cursor effect */
 @keyframes blink-caret {
     from, to { border-color: transparent }
-    50% { border-color: orange; }
+    50% { border-color: #5B9E44; }
+}
+
+.NavigationOptions{
+    width: 74vw;
 }
