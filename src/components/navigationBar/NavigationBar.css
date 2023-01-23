@@ -3,14 +3,19 @@
     height: 10vh;
     display: flex;
     flex-direction:row;
+    border-bottom: 5px solid #5B9E44;
+    justify-content: space-between;
 }
 
 @font-face { font-family: TransRobotics;
     src: url('SFTransRobotics.ttf'); }
 
+@font-face { font-family: Prototype;
+    src: url('Prototype.ttf'); }
+
 .TeamName {
-    width: 26vw;
-    margin: 2vh 2vw ;
+    width: 40vw;
+    margin: auto 2vw ;
     font-weight:normal;
     font-family: 'TransRobotics', sans-serif;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -26,7 +31,7 @@
 /* The typing effect */
 @keyframes typing {
     from { width: 0 }
-    to { width: 26vw }
+    to { width: 40vw }
 }
 
 /* The typewriter cursor effect */
@@ -36,5 +41,17 @@
 }
 
 .NavigationOptions{
-    width: 74vw;
+    width: 31vw;
+    display: flex;
+    flex-direction: row;
+    margin: auto 20vw;
+    justify-content: end;
+}
+
+.NavigationOptions h1{
+    font-family: Prototype, sans-serif;
+    font-weight: lighter;
+    color: white;
+    font-size: 4vh;
+    margin: auto 1vw;
 }
