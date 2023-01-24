@@ -2,9 +2,9 @@ import "./Home.css"
 
 function  Home(){
     return (
-        <>
-            <img alt="" src="/logoechipa.svg"></img>
-        </>
+        <div className={"Home"}>
+            <img className="Logo" alt="" src="/logoechipa.svg"></img>
+        </div>
     )
 }
 

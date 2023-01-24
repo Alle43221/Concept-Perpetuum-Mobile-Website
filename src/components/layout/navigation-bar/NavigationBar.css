@@ -4,7 +4,10 @@
     display: flex;
     flex-direction: row;
     border-bottom: 5px solid #5B9E44;
-    justify-content: space-between;
+    justify-content: end;
+    align-items: end;
+    min-width: 300px;
+    width: 100%;
 }
 
 @font-face {
@@ -18,7 +21,7 @@
 }
 
 .TeamName {
-    width: 40vw;
+    width: 380px;
     margin: auto 2vw;
     font-weight: normal;
     font-family: 'TransRobotics', sans-serif;
@@ -26,8 +29,9 @@
     border-right: .15em solid #5B9E44; /* The typewriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
     letter-spacing: .15em; /* Adjust as needed */
-    animation: typing 3.5s steps(40, end),
+    animation: typing 2.5s steps(40, end),
     blink-caret .75s step-end infinite;
+    font-size: 2rem;
 }
 
 /* The typing effect */
@@ -36,7 +40,7 @@
         width: 0
     }
     to {
-        width: 40vw
+        width: 380px;
     }
 }
 
@@ -50,33 +54,53 @@
     }
 }
 
-.NavigationOptions {
+.NavigationOptions{
     width: 31vw;
     display: flex;
     flex-direction: row;
-    margin: auto 20vw;
-    justify-content: end;
+    margin: auto;
+    justify-content: center;
+    cursor: default;
 }
 
-.NavigationOptions h1 {
+.NavigationOptions h1{
     font-family: Prototype, sans-serif;
     font-weight: lighter;
-    color: white;
-    font-size: 4vh;
     margin: auto 1vw;
+}
+
+.NavigationOptions :visited{
+    color: white;
     cursor: pointer;
 }
 
-.NavigationOptions h1:hover {
+.NavigationOptions :hover {
     color: black;
+    cursor: pointer;
 }
 
+
 .NavigationOptions .active {
-    color: black;
+    color: black !important;
     text-decoration: underline;
-    cursor: default;
+    cursor: default !important;
 }
 
 .NavigationOptions a {
     text-decoration: none;
+}
+
+@media screen and (max-width: 950px) {
+    .NavigationOptions {
+        display: none;
+    }
+    .NavigationBar{
+        justify-content: left;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .TeamName{
+        font-size: 8vw;
+    }
 }

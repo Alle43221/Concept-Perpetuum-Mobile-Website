@@ -1,0 +1,8 @@
+.Logo{
+    height: 2vh;
+}
+
+.Home{
+    display: flex;
+    flex-direction:row;
+}
