@@ -54,4 +54,15 @@
     color: white;
     font-size: 4vh;
     margin: auto 1vw;
+    cursor: pointer;
+}
+
+.NavigationOptions h1:hover{
+    color: black;
+}
+
+.active{
+    color:black;
+    text-decoration: underline;
+    cursor: default;
 }

@@ -10,7 +10,7 @@ const Layout: FC = () => {
         <>
             <NavigationBar/>
             <CoffeeButton/>
-            <div style={{height: "200px"}}>
+            <div style={{height: "68.5vh"}}>
                 <Outlet/>
             </div>
             <Footer/>
