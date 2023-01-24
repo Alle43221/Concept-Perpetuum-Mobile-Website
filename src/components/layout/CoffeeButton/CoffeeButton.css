@@ -1,0 +1,27 @@
+
+.CoffeeButton{
+    z-index: 1;
+    border-radius: 50%;
+    height: 7vh;
+    background-color: #1A6942;
+    width: 7vh;
+    position: fixed;
+    right: 0.5vw;
+    bottom:20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #5B9E44 solid 2px;
+    cursor: pointer;
+}
+
+.CoffeeButton:hover{
+    -webkit-filter: drop-shadow(0px 0px 7px  #5B9E44);
+    filter: drop-shadow(0px 0px 7px #5B9E44);
+}
+
+.CoffeeButton img{
+    height: 5vh;
+    margin: 0;
+    padding: 0;
+}
