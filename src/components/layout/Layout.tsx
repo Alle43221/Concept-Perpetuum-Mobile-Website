@@ -1,8 +1,8 @@
 import {FC} from "react";
-import NavigationBar from "./navigationBar/NavigationBar";
+import NavigationBar from "./navigation-bar/NavigationBar";
 import {Outlet} from "react-router-dom";
 import Footer from "./footer/Footer";
-import CoffeeButton from "./CoffeeButton/CoffeeButton";
+import CoffeeButton from "./coffee-button/CoffeeButton";
 
 
 const Layout: FC = () => {
