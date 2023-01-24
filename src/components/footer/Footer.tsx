@@ -12,7 +12,7 @@ function Footer(){
                 <a  href=""><img alt="" src="/emailicon.png"></img></a>
             </div>
             <h1>
-                Copyright© 2022-2023 Perpetuum Mobile. All rights reserved. Made with 🖤 by Alex David and Alexandra Moroz.
+                Copyright© 2022-2023 Perpetuum Mobile. All rights reserved. Made with 🖤 by <a  href="">Alex David</a> and <a  href="https://github.com/Alle43221">Alexandra Moroz</a>.
             </h1>
         </div>
     )
