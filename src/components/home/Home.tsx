@@ -7,8 +7,13 @@ function  Home(){
             <img className="Logo" alt="" src="/logoechipa.svg"></img>
             <div className={"Slideshow"}>
                 <img alt="" src={"/pictures/image2.jpg"} className={""}></img>
-                <a className="prev" >&#10094;</a>
-                <a className="next" >&#10095;</a>
+                <button className="prev" >&#10094;</button>
+                <button className="next" >&#10095; </button>
+                <div>
+                    <span className="dot"></span>
+                    <span className="dot"></span>
+                    <span className="dot"></span>
+                </div>
             </div>
             </div>
         </div>
