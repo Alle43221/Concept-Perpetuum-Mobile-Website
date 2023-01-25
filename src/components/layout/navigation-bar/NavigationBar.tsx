@@ -5,7 +5,9 @@ import {NavLink} from "react-router-dom";
 function NavigationBar() {
     return (
         <div className="NavigationBar">
-            <h1 className="TeamName">Perpetuum Mobile</h1>
+            <div className={"TeamNameContainer"}>
+                <h1 className="TeamName">Perpetuum Mobile</h1>
+            </div>
             <div className="NavigationOptions">
                 <NavLink to={"/"}><h1>Home</h1></NavLink>
                 <NavLink to={"/events"}><h1>Events</h1></NavLink>

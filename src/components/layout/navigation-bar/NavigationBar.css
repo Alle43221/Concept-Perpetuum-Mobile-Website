@@ -10,6 +10,13 @@
     width: 100%;
 }
 
+.TeamNameContainer{
+    width: 380px;
+    padding: 0;
+    display: flex;
+    margin: auto 2vw;
+}
+
 @font-face {
     font-family: TransRobotics;
     src: url('SFTransRobotics.ttf');
@@ -21,8 +28,8 @@
 }
 
 .TeamName {
+    margin:0;
     width: 380px;
-    margin: auto 2vw;
     font-weight: normal;
     font-family: 'TransRobotics', sans-serif;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
