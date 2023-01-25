@@ -3,6 +3,7 @@ import NavigationBar from "./navigation-bar/NavigationBar";
 import {Outlet} from "react-router-dom";
 import Footer from "./footer/Footer";
 import CoffeeButton from "./coffee-button/CoffeeButton";
+import "./Layout.css"
 
 
 const Layout: FC = () => {
@@ -10,7 +11,7 @@ const Layout: FC = () => {
         <>
             <NavigationBar/>
             <CoffeeButton/>
-            <div style={{height: "68.5vh"}}>
+            <div className={"ContentHeight"}>
                 <Outlet/>
             </div>
             <Footer/>

@@ -3,7 +3,7 @@
     height: 10vh;
     display: flex;
     flex-direction: row;
-    border-bottom: 5px solid #5B9E44;
+    border-bottom: 0.7vh solid #5B9E44;
     justify-content: end;
     align-items: end;
     min-width: 300px;
