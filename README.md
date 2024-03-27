@@ -1,6 +1,5 @@
 # Concept for 2023-2024 Perpetuum Mobile Webpage
 ![image](https://github.com/Alle43221/Concept-Perpetuum-Mobile-Website/assets/79206599/615d9c7f-0e08-40c1-aaa2-df789d82a2db)
-<br/><br/>
 - Improved readability and landing page.  
 - Fixed colour pallete and implemented image carousel.  
 - Changed the theme to match the new logo.  
